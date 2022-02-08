@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T23:30:49.561Z" agent="5.0 (Windows)" etag="Wkqu-4VleAJp9MHWz0Me" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T23:33:27.563Z" agent="5.0 (Windows)" etag="pBwTfJjroC1UsdMBb3vP" version="16.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,13 +20,16 @@
             <mxPoint x="16" y="96" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GATDkKmrF6tu4sewQckp-23" value="&lt;div&gt;RabbitMQ queues&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GATDkKmrF6tu4sewQckp-21">
+        <mxCell id="GATDkKmrF6tu4sewQckp-23" value="Sends packets through RabbitMQ queues" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GATDkKmrF6tu4sewQckp-21">
           <mxGeometry x="-0.1167" y="3" relative="1" as="geometry">
             <mxPoint x="11" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GATDkKmrF6tu4sewQckp-0" value="mq_producer.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GATDkKmrF6tu4sewQckp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GATDkKmrF6tu4sewQckp-1" target="GATDkKmrF6tu4sewQckp-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GATDkKmrF6tu4sewQckp-1" value="&lt;div&gt;mq_receiver.py&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="580" y="335" width="120" height="60" as="geometry" />
@@ -56,6 +59,12 @@
         </mxCell>
         <mxCell id="GATDkKmrF6tu4sewQckp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GATDkKmrF6tu4sewQckp-8" target="GATDkKmrF6tu4sewQckp-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GATDkKmrF6tu4sewQckp-25" value="Oracle JET Dashboard" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GATDkKmrF6tu4sewQckp-30" value="Consumes messages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="415" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
